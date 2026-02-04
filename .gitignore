@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and transient
+out*.txt
+
+# Generated outputs
+Imagens_Geradas/
+Tabelas_Geradas/
+
+# Heavy data (keep structure docs, ignore actual datasets)
+Dados/Comma Separated Values Source File/
+Dados/microdados_censo_da_educacao_superior_*/
+*.zip

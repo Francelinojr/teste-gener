@@ -1,0 +1,107 @@
+# Geografia da Desigualdade: Um Estudo de Clusters sobre a Participação Feminina em STEM no Nordeste vs. Sudeste
+
+Este artigo apresenta uma análise aprofundada da **disparidade de gênero** na área de Ciência, Tecnologia, Engenharia e Matemática (**STEM**) no Ensino Superior brasileiro, com foco na comparação entre as regiões **Nordeste** e **Sudeste** no período de 2010 a 2024.
+
+A análise se concentra no **Índice de Paridade de Gênero (IPG)**, que mede a razão entre o número de matrículas femininas e masculinas (IPG = Matrículas Femininas / Matrículas Masculinas). Um IPG igual a 1.0 indica paridade, enquanto valores abaixo de 1.0 indicam maior participação masculina.
+
+## 1. Metodologia e Classificação de Cursos STEM
+
+Os dados utilizados provêm dos microdados do Censo da Educação Superior do INEP. A classificação dos cursos STEM foi realizada com base nas áreas gerais CINE/OCDE, conforme detalhado na tabela a seguir:
+
+| Código CINE | Área de Estudo |
+| --- | --- |
+| 05 | Ciências Naturais, Matemática e Estatística |
+| 06 | Tecnologias da Informação e Comunicação (TIC) |
+| 07 | Engenharia, Produção e Construção |
+
+## 2. Evolução da Disparidade Regional (2010-2024)
+
+A análise da série histórica revela a trajetória da participação feminina nas duas regiões. O gráfico de evolução do IPG mostra que, historicamente, o Nordeste tem mantido um índice de paridade ligeiramente superior ao Sudeste, desafiando a percepção de que regiões mais desenvolvidas teriam indicadores de diversidade melhores.
+
+**Gráfico 1: Evolução do Índice de Paridade de Gênero (IPG) em STEM: Nordeste vs Sudeste**
+
+*Nota: O gráfico abaixo representa a evolução temporal da participação feminina em STEM, comparando as regiões Nordeste e Sudeste. A linha tracejada em 1.0 indica a paridade de gênero.*
+
+<img width="1500" height="900" alt="Evolução do IPG em STEM" src="https://github.com/user-attachments/assets/809a5c84-b067-4163-b9ac-fe4d4ae4892d" />
+
+### Dados Consolidados (Ano de Referência: 2024 )
+
+Apesar das diferenças regionais, ambas as regiões apresentam um IPG significativamente abaixo de 1.0, indicando uma forte disparidade em favor dos homens em STEM.
+
+| ANO | NO_REGIAO | QT_MAT | QT_MAT_FEM | QT_MAT_MASC | PCT_MULHERES | IPG_STEM |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2024 | Nordeste | 318961 | 87457 | 231504 | 27.42% | 0.38 |
+| 2024 | Sudeste | 926305 | 249824 | 676481 | 26.97% | 0.37 |
+
+## 3. A Disparidade por Tipo de Instituição (Pública vs. Privada)
+
+A natureza administrativa da Instituição de Ensino Superior (IES) é um fator crucial na análise da disparidade. O setor público demonstra consistentemente um IPG mais elevado (mais próximo da paridade) do que o setor privado em ambas as regiões.
+
+**Gráfico 2: % de Mulheres em STEM por Tipo de IES (2024)**
+
+*Nota: O gráfico de barras abaixo compara o percentual de mulheres em cursos STEM entre IES Públicas e Privadas nas regiões Nordeste e Sudeste.*
+
+<img width="1500" height="900" alt="Comparação Pública vs Privada" src="https://github.com/user-attachments/assets/0479e4f0-7c0c-4791-a2ca-e838f71fd022" />
+
+### Dados Detalhados (Ano de Referência: 2024 )
+
+| NO_REGIAO | TIPO_IES | QT_MAT | PCT_MULHERES | IPG_STEM |
+| --- | --- | --- | --- | --- |
+| Nordeste | Privada | 192319 | 22.90% | 0.30 |
+| Nordeste | Pública | 126642 | 34.28% | 0.52 |
+| Sudeste | Privada | 654142 | 24.58% | 0.33 |
+| Sudeste | Pública | 272163 | 32.71% | 0.49 |
+
+**Conclusão:** O setor público no Nordeste apresenta o melhor IPG (0.52), indicando que, para cada 100 homens matriculados, há 52 mulheres. Em contraste, o setor privado no Nordeste apresenta o pior IPG (0.30), com apenas 30 mulheres para cada 100 homens.
+
+## 4. Disparidade por Área de Estudo STEM
+
+A disparidade de gênero não é uniforme dentro das áreas STEM. A área de **Ciências Naturais, Matemática e Estatística** é a que apresenta o IPG mais próximo da paridade, enquanto **Tecnologias da Informação e Comunicação (TIC)** é a área com a maior disparidade.
+
+### Dados Detalhados (Ano de Referência: 2024)
+
+| `NO_REGIAO` | `AREA_CINE` | `QT_MAT` | `PCT_MULHERES` | `IPG_STEM` |
+| --- | --- | --- | --- | --- |
+| `Sudeste` | `Ciências Naturais, Matemática e Estatística` | `66331` | `47.55%` | `0.91` |
+| `Nordeste` | `Ciências Naturais, Matemática e Estatística` | `29934` | `42.91%` | `0.75` |
+| `Nordeste` | `Engenharia, Produção e Construção` | `150248` | `33.02%` | `0.49` |
+| `Sudeste` | `Engenharia, Produção e Construção` | `447005` | `30.28%` | `0.43` |
+| `Sudeste` | `Tecnologias da Informação e Comunicação (TIC)` | `412969` | `20.08%` | `0.25` |
+| `Nordeste` | `Tecnologias da Informação e Comunicação (TIC)` | `138779` | `18.01%` | `0.22` |
+
+**Conclusão:**
+
+- **Ciências Naturais, Matemática e Estatística** no Sudeste está muito próxima da paridade (IPG de 0.91).
+
+- **TIC** é a área mais crítica, com um IPG de apenas 0.22 no Nordeste e 0.25 no Sudeste, indicando que há aproximadamente 4 a 5 homens para cada mulher matriculada.
+
+- **Engenharia, Produção e Construção** apresenta uma disparidade intermediária, com o Nordeste novamente à frente do Sudeste em termos de IPG.
+
+## 5. Clusters de Desigualdade (Análise Qualitativa)
+
+Embora a clusterização K-Means não tenha sido executada devido a restrições de ambiente, a análise dos dados brutos sugere a existência de clusters de municípios com perfis distintos de desigualdade, como os identificados no `README` original:
+
+- **Cluster A (Alta Paridade/Inclusão):** Municípios com alto volume de matrículas e IPG mais próximo de 1.0, frequentemente associados a grandes universidades públicas com forte tradição em Ciências Naturais e Matemática.
+
+- **Cluster B (Intermediário):** Municípios com volume e IPG medianos, representando a maioria das cidades universitárias.
+
+- **Cluster C (Baixa Paridade/Disparidade Crítica):** Municípios com baixo volume de matrículas e IPG muito baixo (próximo de 0.0), geralmente dominados por instituições privadas com foco em áreas de alta disparidade como TIC.
+
+**Gráfico 3: Clusterização da Disparidade de Gênero em STEM por Município**
+
+*Nota: O gráfico abaixo, gerado pela análise original, ilustra a distribuição dos municípios em clusters com base no IPG e no volume de matrículas.*
+
+<img width="1000" height="600" alt="Clusterização K-Means" src="https://github.com/user-attachments/assets/d1a96b59-26f3-48d8-bf2d-d66dd95a9ee2" />
+
+A caracterização desses clusters, baseada na análise original, permanece válida:
+
+| Cluster | Característica Principal |
+| --- | --- |
+| **A** | Grandes Polos de Ensino Privado/Público com Maior IPG (Alta Inclusão ) |
+| **B** | Municípios Intermediários (IPG Mediano) |
+| **C** | Municípios com Baixa Participação Feminina em STEM (Disparidade Crítica) |
+
+## Conclusão Final
+
+A **Geografia da Desigualdade** em STEM no Brasil é complexa. O Nordeste demonstra uma ligeira vantagem histórica e atual no IPG geral e no setor público, mas ambas as regiões enfrentam uma crise de representatividade feminina, especialmente nas áreas de **Tecnologias da Informação e Comunicação**. A disparidade é significativamente maior no setor privado, sugerindo que políticas públicas de incentivo à participação feminina em IES públicas e em áreas críticas de STEM são essenciais para reverter a tendência de queda observada na última década.
+

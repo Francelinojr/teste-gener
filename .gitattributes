@@ -1,0 +1,7 @@
+* text=auto
+
+# Normalize line endings for source and docs
+*.py text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
